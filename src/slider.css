@@ -1,0 +1,49 @@
+.slide-container {
+    width: 95%;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+.each-slide>div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.each-slide span {
+    padding: 20px 200px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    font-size: 1.5em;
+    background: #efefef79;
+    text-align: center;
+}
+
+.each-fade {
+    display: flex;
+}
+
+.each-fade .image-container {
+    width: 75%;
+    overflow: hidden;
+}
+
+.each-fade .image-container img {
+    width: 100%;
+}
+
+.each-fade h2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+}

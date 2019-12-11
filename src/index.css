@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #333;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand span {
+    font-size: x-large;
+}
+
+.container {
+    margin-bottom: 50px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info div img {
+    float: left;
+}
+
+.info>div>div {
+    color: #fff;
+    margin: 10px 20px;
+}
+
+.info div span {
+    font-weight: bold;
+}
+
+.info .smallPoster {
+    margin: 20px;
+    width: 500px;
+}
+
+.info .video {
+    width: 80%;
+    height: 500px;
+}
